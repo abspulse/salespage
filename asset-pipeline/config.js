@@ -128,8 +128,7 @@ export const checkVersions = {
 export const prodTasks = [
   'clean',
   [
-    'js-lint',
-    'css-lint'
+    'js-lint'
   ],
   [
     'html',
