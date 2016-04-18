@@ -1,0 +1,27 @@
+@import "vendor/vendor";
+
+@import "variables";
+@import "scaffolding";
+
+main {
+  margin-top: 133px;
+}
+
+.fa-heart {
+  // http://cssnext.io/features/
+  color: rebeccapurple;
+}
+
+.sample-bg-image {
+  // visit https://github.com/assetsjs/postcss-assets for more info
+  width: width('sample.jpeg');
+  height: height("sample.jpeg");
+  background-size: size("sample.jpeg");
+  background-image: resolve("sample.jpeg");
+  // Optionally inline in Base64 encoding.
+  // background-image: inline("./sample.jpeg");
+
+  color: #fffff1;
+  color: #fffff2;
+
+}
