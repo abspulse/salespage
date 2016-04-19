@@ -5,21 +5,28 @@
 
 main{
   section.landing{
-    height: 750px;
+    height: 700px;
     background: $gradient, resolve('landingBg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-    // background-attachment: fixed;
+    background-attachment: fixed;
     img.logo{
-      margin-top: 230px;
+      margin-top: 180px;
       margin-bottom: 55px;
+      width: 300px;
     }
     button{
       position: absolute;
-      bottom: 80px;
+      bottom: 40px;
       left:50%;
       transform: translate(-50%);
+    }
+    img.mask{
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      left: 0;
     }
   }
 
@@ -68,7 +75,7 @@ main{
     background-position: center;
     position: relative;
     padding: 225px 0 130px 0;
-    // background-attachment: fixed;
+    background-attachment: fixed;
     img.trinagle{
       position: absolute;
       top: 0;
@@ -105,7 +112,7 @@ main{
       }
 
       p{
-        font-size: 16px;
+        font-size: 18px;
         line-height: 23px;
         padding: 0 15px;
       }
@@ -116,6 +123,8 @@ main{
     div.profile{
       border-right: 1px solid white;
       margin-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       img{
         width: 140px;
         height: 140px;
@@ -125,6 +134,7 @@ main{
         font-size: 18px;
         font-weight: bold;
         line-height: 18px;
+        margin-bottom: 0;
         span{
           font-weight: normal;
           font-size: 14px;
@@ -132,12 +142,13 @@ main{
       }
     }
     h3{
-      font-size: 34px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 30px;
       font-style: oblique;
       line-height: 42px;
       text-align: left;
       padding-right: 20px;
-      margin-top: 25px;
+      margin-top: 45px;
     }
   }
 
@@ -160,12 +171,13 @@ main{
       h3{
         font-size: 38px;
         line-height: 48px;
-        font-weight: bold;
+        font-family: 'FrutigerNext LT Bold';
         margin-top: 15px;
         margin-bottom: 20px;
       }
       p.price{
         font-size: 52px;
+        font-family: 'FrutigerNext LT Bold';
         span{
           font-size: 16px;
         }
@@ -182,6 +194,7 @@ main{
           justify-content:center;
           align-content:center;
           flex-direction:column;
+          font-size: 18px;
         }
         li.odd{
           background: #E6E6E6;
@@ -210,7 +223,7 @@ main{
       background-image: resolve("suits.svg");
     }
     .action{
-      margin: 0 0 80px;
+      margin: 0 0 110px;
       button{
         width: 100%;
         height: 60px;
@@ -263,7 +276,7 @@ main{
       border: 2px solid white;
       border-radius: 6px;
       outline: none;
-      padding: 10px;
+      padding: 10px 20px;
     }
     .row.action{
       margin-bottom: 20px;
