@@ -10,6 +10,7 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
+    background-attachment: fixed;
     img.logo{
       margin-top: 230px;
       margin-bottom: 55px;
@@ -56,6 +57,56 @@ main{
           line-height: 28px;
           vertical-align: middle;
         }
+      }
+    }
+  }
+
+  section.usp{
+    background: resolve('uspBg.jpg') no-repeat top center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 225px 0 130px 0;
+    background-attachment: fixed;
+    img.trinagle{
+      position: absolute;
+      top: 0;
+      left:50%;
+      transform: translate(-50%);
+    }
+
+    div.box{
+      background: $white;
+      border-radius: 6px;
+      padding-bottom: 50px;
+      min-height: 365px;
+      div.icon{
+        width: 220px;
+        height: 220px;
+        border-radius: 220px;
+        line-height: 220px;
+        background: $purple;
+        margin: -110px auto 20px;
+        display: inline-block;
+      }
+      div.icon.purple-light{
+        background: $purple-light;
+      }
+      div.icon.pink{
+        background: $pink;
+      }
+
+      h3{
+        font-size: 38px;
+        line-height: 48px;
+        font-weight: normal;
+        margin-bottom: 15px;
+      }
+
+      p{
+        font-size: 16px;
+        line-height: 23px;
+        padding: 0 15px;
       }
     }
   }

@@ -1,7 +1,8 @@
 main{
   color: $dark;
   text-align: center;
-
+  -webkit-font-smoothing: antialiased;
+  
   h1,h2{
     font-size: 38px;
     line-height: 48px;
