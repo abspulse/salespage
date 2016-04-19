@@ -110,6 +110,39 @@ main{
       }
     }
   }
+
+  section.testimonial{
+    div.profile{
+      border-right: 1px solid white;
+      margin-right: 10px;
+      img{
+        width: 140px;
+        height: 140px;
+        margin-bottom: 10px;
+      }
+      p{
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 18px;
+        span{
+          font-weight: normal;
+          font-size: 14px;
+        }
+      }
+    }
+    h3{
+      font-size: 34px;
+      font-style: oblique;
+      line-height: 42px;
+      text-align: left;
+      padding-right: 20px;
+      margin-top: 25px;
+    }
+  }
+
+  section.pricing{
+    
+  }
 }
 
 // .sample-bg-image {
