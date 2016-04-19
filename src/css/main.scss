@@ -22,13 +22,12 @@ main{
       transform: translate(-50%);
     }
   }
-
+  section.target{
+    padding-bottom: 30px;
+  }
   section.benefit{
     background: resolve('graph.svg') no-repeat bottom;
     padding-bottom: 80px;
-    h2{
-      margin-bottom: 80px;
-    }
     ul{
       list-style: none;
       margin: 0;
@@ -141,16 +140,85 @@ main{
   }
 
   section.pricing{
-    
+    h2{
+      margin-bottom: 130px;
+    }
+    .box{
+      background-color: #D8D8D8;
+      font-weight: bold;
+      border-radius: 6px;
+      margin-bottom: 20px;
+      div.top{
+        background-image: resolve("rookie.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        min-height: 265px;
+        overflow: auto;
+      }
+      h3{
+        font-size: 38px;
+        line-height: 48px;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+      p.price{
+        font-size: 52px;
+        span{
+          font-size: 16px;
+        }
+      }
+      ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+          height: 57px;
+          padding-top: 3px;
+          font-weight: normal;
+          text-transform: capitalize;
+        }
+        li.odd{
+          background: #E6E6E6;
+        }
+      }
+    }
+    .box.rainmaker div.top{
+      background-image: resolve("rainmaker.svg");
+      margin-top: -60px;
+      min-height: 325px;
+      >span{
+        text-decoration: underline;
+        font-weight: normal;
+        margin-top: 10px;
+        display: block;
+      }
+      h3{
+        font-size: 42px;
+        margin-bottom: 30px;
+      }
+      p.price{
+        font-size: 64px;
+      }
+    }
+    .box.suits div.top{
+      background-image: resolve("suits.svg");
+    }
+    .action{
+      margin: 0 0 80px;
+      button{
+        width: 100%;
+        height: 60px;
+        border-radius: 6px;
+        background: $pink;
+        font-size: 18px;
+      }
+    }
+    .action.rainmaker button{
+      background: $purple;
+    }
+    .action.suits button{
+      background: $purple-light;
+    }
   }
 }
-
-// .sample-bg-image {
-  // visit https://github.com/assetsjs/postcss-assets for more info
-  // width: width('sample.jpeg');
-  // height: height("sample.jpeg");
-  // background-size: size("sample.jpeg");
-  // background-image: resolve("sample.jpeg");
-  // Optionally inline in Base64 encoding.
-  // background-image: inline("./sample.jpeg");
-// }
