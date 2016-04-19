@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="98px" height="112px" viewBox="0 0 98 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>bar_chart_F</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-671.000000, -2421.000000)" fill="#FFFFFF">
+            <g id="USPs" sketch:type="MSLayerGroup" transform="translate(0.000000, 2240.000000)">
+                <g id="reliable-data" transform="translate(570.000000, 131.823444)" sketch:type="MSShapeGroup">
+                    <path d="M105,86.2083936 L105,144.98036 L123.947368,144.98036 L123.947368,86.2083936 L105,86.2083936 Z M128.684211,51.9247467 L128.684211,144.98036 L147.631579,144.98036 L147.631579,51.9247467 L128.684211,51.9247467 Z M152.368421,66.6177383 L152.368421,144.98036 L171.315789,144.98036 L171.315789,66.6177383 L152.368421,66.6177383 Z M176.052632,96.0037213 L176.052632,144.98036 L195,144.98036 L195,96.0037213 L176.052632,96.0037213 Z M105,149.878024 L105,154.775687 L195,154.775687 L195,149.878024 L105,149.878024 Z" id="bar_chart_F"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

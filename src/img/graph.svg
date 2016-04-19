@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1921px" height="770px" viewBox="0 0 1921 770" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Line graph</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.977083333" y="1" width="1920" height="770"></rect>
+        <path id="path-3" d="M-732,616.782214 C-732,616.782214 148.812453,85.5264761 371.890849,120.669744 C594.969245,155.813013 893.649918,563.991627 1161.29275,576.515836 C1428.93558,589.040039 2083,276.380117 2083,276.380117 L2083,827 L-732,826.999992 L-732,616.782214 Z"></path>
+        <path id="path-4" d="M-732,575.111381 C-732,575.111381 -225.1757,0.999984287 109.945605,1 C445.066911,1.00001584 628.361918,555.158949 804.713928,565.93398 C896.315331,571.530784 1386.53671,172.169795 1550.39133,172.169815 C1714.24596,172.169835 2083,414.499997 2083,414.499997 L2083,827.999994 L-732,828 L-732,575.111381 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Line-graph" sketch:type="MSLayerGroup" transform="translate(0.000000, -1.000000)">
+            <mask id="mask-2" sketch:name="Mask" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <path d="M636.835938,430.265625 C1345.20312,107.007818 1611.05469,249.53125 1758.83594,527.958904 C1906.61719,806.386559 2080.08594,827.999984 2080.08594,827.999984 L1923,828 L-732,828 C-732,828 -71.53125,753.523432 636.835938,430.265625 Z" id="Rectangle-2" stroke="#D28EA9" fill-opacity="0.26" fill="#BFCCD2" sketch:type="MSShapeGroup" mask="url(#mask-2)"></path>
+            <g id="Path-19-copy">
+                <use stroke="#D28EA9" stroke-width="1" fill="none" sketch:type="MSShapeGroup" mask="url(#mask-2)" xlink:href="#path-3"></use>
+                <use stroke="none" fill-opacity="0.25999999" fill="#C0CCD2" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="Path-19-copy-2">
+                <use stroke="#D28EA9" stroke-width="1" fill="none" sketch:type="MSShapeGroup" mask="url(#mask-2)" xlink:href="#path-4"></use>
+                <use stroke="none" fill-opacity="0.26000002" fill="#C0CCD2" fill-rule="evenodd" xlink:href="#path-4"></use>
+            </g>
+            <path d="M378,132 C383.522848,132 388,127.522848 388,122 C388,116.477152 383.522848,112 378,112 C372.477152,112 368,116.477152 368,122 C368,127.522848 372.477152,132 378,132 Z" id="Oval-8-copy" fill="#D28EA9" sketch:type="MSShapeGroup"></path>
+            <path d="M1353,257 C1358.52285,257 1363,252.522848 1363,247 C1363,241.477152 1358.52285,237 1353,237 C1347.47715,237 1343,241.477152 1343,247 C1343,252.522848 1347.47715,257 1353,257 Z" id="Oval-8-copy-5" fill="#D28EA9" sketch:type="MSShapeGroup"></path>
+            <path d="M1700,449 C1705.52285,449 1710,444.522848 1710,439 C1710,433.477152 1705.52285,429 1700,429 C1694.47715,429 1690,433.477152 1690,439 C1690,444.522848 1694.47715,449 1700,449 Z" id="Oval-8-copy-6" fill="#D28EA9" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

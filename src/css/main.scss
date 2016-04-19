@@ -3,25 +3,70 @@
 @import "variables";
 @import "scaffolding";
 
-main {
-  margin-top: 133px;
+main{
+  section.landing{
+    height: 750px;
+    background: $gradient, resolve('landingBg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    img.logo{
+      margin-top: 230px;
+      margin-bottom: 55px;
+    }
+    button{
+      position: absolute;
+      bottom: 80px;
+      left:50%;
+      transform: translate(-50%);
+    }
+  }
+
+  section.benefit{
+    background: resolve('graph.svg') no-repeat bottom;
+    padding-bottom: 80px;
+    h2{
+      margin-bottom: 80px;
+    }
+    ul{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li{
+        background: #3B3B3B;
+        margin-bottom:20px;
+        color: $white;
+        border-radius: 6px;
+        text-align: left;
+        padding: 20px;
+        div.icon{
+          background: white;
+          width: 65px;
+          height: 65px;
+          line-height: 60px;
+          float: left;
+          border-radius: 65px;
+          text-align: center;
+          vertical-align: middle;
+          margin-right: 20px;
+        }
+        p{
+          display: inline;
+          font-size: 20px;
+          line-height: 28px;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
 }
 
-.fa-heart {
-  // http://cssnext.io/features/
-  color: rebeccapurple;
-}
-
-.sample-bg-image {
+// .sample-bg-image {
   // visit https://github.com/assetsjs/postcss-assets for more info
-  width: width('sample.jpeg');
-  height: height("sample.jpeg");
-  background-size: size("sample.jpeg");
-  background-image: resolve("sample.jpeg");
+  // width: width('sample.jpeg');
+  // height: height("sample.jpeg");
+  // background-size: size("sample.jpeg");
+  // background-image: resolve("sample.jpeg");
   // Optionally inline in Base64 encoding.
   // background-image: inline("./sample.jpeg");
-
-  color: #fffff1;
-  color: #fffff2;
-
-}
+// }
