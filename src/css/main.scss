@@ -22,9 +22,11 @@ main{
       transform: translate(-50%);
     }
   }
+
   section.target{
     padding-bottom: 30px;
   }
+
   section.benefit{
     background: resolve('graph.svg') no-repeat bottom;
     padding-bottom: 80px;
@@ -173,10 +175,13 @@ main{
         margin: 0;
         padding: 0;
         li{
-          height: 57px;
-          padding-top: 3px;
+          height: 60px;
           font-weight: normal;
           text-transform: capitalize;
+          display: flex;
+          justify-content:center;
+          align-content:center;
+          flex-direction:column;
         }
         li.odd{
           background: #E6E6E6;
@@ -221,4 +226,48 @@ main{
       background: $purple-light;
     }
   }
+
+  section.reserve{
+    position: relative;
+    img.ribbon{
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    form{
+      font-size: 18px;
+      margin-top: 30px;
+      .row{
+        margin-bottom: 25px;
+      }
+    }
+    button{
+      width: 30%;
+      height: 55px;
+      border: 2px solid white;
+      border-radius: 6px;
+    }
+    button.active{
+      background: white;
+      color: $dark;
+    }
+    div.accounts{
+      button[data-account="rainmaker"]{
+        margin:0 5%;
+      }
+    }
+    input[type="text"]{
+      height: 55px;
+      width: 100%;
+      background: none;
+      border: 2px solid white;
+      border-radius: 6px;
+      outline: none;
+      padding: 10px;
+    }
+    .row.action{
+      margin-bottom: 20px;
+    }
+  }
+
 }

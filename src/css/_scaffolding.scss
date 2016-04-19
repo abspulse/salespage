@@ -35,3 +35,33 @@ main{
   color: $white;
   text-shadow: 0px 1px 1px rgba(0,0,0,0.50);
 }
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+}
+
+footer{
+  background: $dark;
+  color: white;
+  line-height: 70px;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  img.logo{
+    width: 125px;
+    margin-right: 10px;
+  }
+  .right{
+    text-align: right;
+  }
+}
