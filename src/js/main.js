@@ -6,8 +6,8 @@ import log from './log';
 
 window.$ = window.jQuery = $;
 
-$.get('http://localhost:3000/api/sample', (res) => {
-  console.log('Response from sample api: ', res);
-});
+// $.get('http://localhost:3000/api/sample', (res) => {
+//   console.log('Response from sample api: ', res);
+// });
 
 log('Hello there!');
