@@ -74,14 +74,18 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 225px 0 130px 0;
+    padding: 0 0 130px 0;
     background-attachment: fixed;
-
+    overflow: auto;
+    h2{
+      margin-bottom: 40px;
+    }
     div.box{
       background: $white;
       border-radius: 6px;
       padding-bottom: 50px;
       min-height: 365px;
+      margin-top: 130px;
       div.icon{
         width: 220px;
         height: 220px;
