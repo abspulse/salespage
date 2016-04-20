@@ -10,7 +10,7 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
-    // background-attachment: fixed;
+    background-attachment: fixed;
     img.logo{
       margin-top: 180px;
       margin-bottom: 55px;
@@ -22,9 +22,9 @@ main{
       left:50%;
       transform: translate(-50%);
     }
-    img.mask{
+    svg{
       position: absolute;
-      width: 100%;
+      height: auto;
       bottom: 0;
       left: 0;
     }
@@ -75,13 +75,7 @@ main{
     background-position: center;
     position: relative;
     padding: 225px 0 130px 0;
-    // background-attachment: fixed;
-    img.trinagle{
-      position: absolute;
-      top: 0;
-      left:50%;
-      transform: translate(-50%);
-    }
+    background-attachment: fixed;
 
     div.box{
       background: $white;
@@ -120,6 +114,13 @@ main{
   }
 
   section.testimonial{
+    position: relative;
+    img.trinagle{
+      position: absolute;
+      top: 0;
+      left:50%;
+      transform: translate(-50%);
+    }
     div.profile{
       border-right: 1px solid white;
       margin-right: 10px;
