@@ -130,10 +130,10 @@ export const prodTasks = [
   [
     'js-lint'
   ],
+  'images',
   [
     'html',
     'fonts',
-    'images',
     'css',
     'js'
   ],
@@ -145,11 +145,11 @@ export const prodTasks = [
 
 export const devTasks = [
   'clean',
+  'images',
   [
     'html',
     'assets',
     'fonts',
-    'images',
     'css',
     'js'
   ],

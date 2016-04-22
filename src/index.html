@@ -11,20 +11,15 @@
   <section class="landing light container-fluid">
     <div class="container">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-12 col-md-offset-0">
           <img src="images/logo.svg" alt="logo" class="logo" />
-          <h1>Unique business intelligence for dealerships in the US who are looking to improve inventory turnover</h1>
-          <p>ASI scans millions of vehicle listings and uses cutting edge technology to estimate average time on market and sales prices for any configuration.</p>
+          <h1>Unique business intelligence for car dealerships in the US</h1>
         </div>
+        <p class="col-md-10 col-md-offset-1">ASI scans millions of vehicle listings to analyze sales patterns and estimate average time on market and sales prices for any car configuration.</p>
       </div>
     </div>
-    <button> <img src="images/down.svg" alt="down" /> </button>
-    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-    <svg width="100%" viewBox="0 0 1440 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-        <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
-        <title>Rectangle 1</title>
-        <desc>Created with Sketch.</desc>
-        <defs></defs>
+    <img src="images/down.svg" alt="down" class="down" />
+    <svg width="100%" viewBox="0 0 1440 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
             <path d="M0,0 L720,83 L1440,0 L1440,83 L0,83 L0,0 Z" id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
         </g>
@@ -79,8 +74,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-          <h2 class="light">Big data made simple</h2>
-          <!-- <p class="light">ASI scans millions of vehicle listings and uses advanced algorithms to analyze their sales patterns. Monitoring the time ads are staying online and tracking price alterations it estimates average time on market and sales prices for any configuration.</p> -->
+          <h2 class="light">Big data made simple to maximize rate of return</h2>
         </div>
       </div>
       <div class="row">
@@ -136,7 +130,7 @@
           </ul>
         </div>
         <div class="action">
-          <button class="light">Select</button>
+          <button class="light" data-account="rookie">Select</button>
         </div>
       </div>
 
@@ -156,7 +150,7 @@
           </ul>
         </div>
         <div class="action rainmaker">
-          <button class="light">Select</button>
+          <button class="light" data-account="rainmaker">Select</button>
         </div>
       </div>
 
@@ -175,7 +169,7 @@
           </ul>
         </div>
         <div class="action suits">
-          <button class="light">Select</button>
+          <button class="light" data-account="suits">Select</button>
         </div>
       </div>
 
@@ -187,7 +181,7 @@
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
           <h2>We're so excited by all of your interest</h2>
-          <p>Demand for ASI has been incredible, and in order to deliver a top-class experience we're filling reservations on a first-come, first-served basis. Reserve a spot now and secure your access before your competitors!</p>
+          <p>Demand for ASI has been incredible, and in order to deliver a top-class experience we're creating new accounts on a first-come, first-served basis. Reserve a spot now and secure your access before your competitors!</p>
           <form class="reserve col-md-10 col-md-offset-1">
             <div class="row accounts">
               <button class="rookie" data-account="rookie">Rookie</button><button class="rainmaker active" data-account="rainmaker">Rainmaker</button><button class="suits" data-account="suits">Suits</button>
@@ -196,7 +190,7 @@
               <input type="text" name="company" placeholder="Company">
             </div>
             <div class="row">
-              <input type="text" name="email" placeholder="Email">
+              <input type="text" name="email" placeholder="Email" data-type="email">
             </div>
             <div class="row action">
               <button type="submit">Reserve</button>

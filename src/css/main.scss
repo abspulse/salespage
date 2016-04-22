@@ -5,7 +5,7 @@
 
 main{
   section.landing{
-    height: 750px;
+    height: 700px;
     background: $gradient, resolve('landingBg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,17 +19,20 @@ main{
     h1{
       margin-bottom: 40px;
     }
-    button{
+    img.down{
       position: absolute;
       bottom: 40px;
       left:50%;
       transform: translate(-50%);
+      cursor: pointer;
+      z-index: 2;
     }
     svg{
       position: absolute;
       height: auto;
       bottom: 0;
       left: 0;
+      z-index: 1;
     }
   }
 
@@ -233,17 +236,21 @@ main{
     .action{
       margin: 0 0 110px;
       button{
-        width: 100%;
+        width: 70%;
         height: 60px;
         border-radius: 6px;
+        color: white;
+        border: $pink 2px solid;
         background: $pink;
-        font-size: 18px;
+        font-size: 24px;
       }
     }
     .action.rainmaker button{
+      border: $purple 2px solid;
       background: $purple;
     }
     .action.suits button{
+      border: $purple-light 2px solid;
       background: $purple-light;
     }
   }
@@ -255,8 +262,13 @@ main{
       top: 0;
       right: 0;
     }
+    h3{
+      font-family: 'FrutigerNext LT Bold';
+      font-size: 28px;
+      margin-top: 40px;
+    }
     form{
-      font-size: 18px;
+      font-size: 20px;
       margin-top: 30px;
       .row{
         margin-bottom: 25px;
