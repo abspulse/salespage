@@ -86,11 +86,15 @@ footer{
   line-height: 70px;
   font-size: 14px;
   img.logo{
-    width: 125px;
+    width: 100px;
     margin-right: 10px;
   }
   .right{
     text-align: right;
+  }
+  a{
+    color: white !important;
+    text-decoration: none !important;
   }
 }
 
@@ -114,4 +118,9 @@ footer{
    0%, 100% {
        transform: translateX(0);
    }
+}
+
+
+body.terms{
+  padding: 100px;
 }
