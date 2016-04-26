@@ -35,6 +35,10 @@ main{
     font-size: 36px;
     line-height: 48px;
     font-family: 'FrutigerNext LT Bold';
+    @media(max-width:767px){
+      font-size: 24px;
+      line-height: 30px;
+    }
   }
 
   h2{
@@ -42,11 +46,18 @@ main{
     @media(max-width:991px){
       margin: 70px 0 60px;
     }
+    @media(max-width:991px){
+      margin: 50px 0 40px;
+    }
   }
 
   p{
     font-size: 24px;
     line-height: 36px;
+    @media(max-width:767px){
+      font-size: 18px;
+      line-height: inherit;
+    }
   }
 
   button{
@@ -61,6 +72,12 @@ main{
   padding: 60px 0;
   h2{
     margin: 0 0 40px 0;
+  }
+  @media(max-width:767px){
+    padding: 50px 0;
+    h2{
+      margin: 0 0 20px 0;
+    }
   }
 }
 .light{

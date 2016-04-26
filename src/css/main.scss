@@ -7,19 +7,31 @@ main{
   section.landing{
     height: 700px;
     background: $gradient, resolve('landingBg.jpg') no-repeat;
-    @media(min-width:992px){
+    @media(min-width:1025px){
       background-attachment: fixed;
     }
     background-size: cover;
     background-position: center;
     position: relative;
+    @media(max-width:767px){
+      height: auto;
+      background-image: $gradient;
+    }
     img.logo{
       margin-top: 150px;
       margin-bottom: 55px;
       width: 320px;
+      @media(max-width:767px){
+        width:70%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
     }
     h1{
       margin-bottom: 40px;
+      @media(max-width:767px){
+        margin-bottom: 30px;
+      }
     }
     img.down{
       position: absolute;
@@ -40,13 +52,19 @@ main{
     }
   }
 
-  section.target{
-    padding-bottom: 30px;
-  }
 
   section.benefit{
     background: resolve('graph.svg') no-repeat bottom;
     padding-bottom: 80px;
+    @media(max-width:767px){
+      padding-bottom: 0px;
+      h2{
+        margin-bottom: 70px;
+      }
+    }
+    @media (min-width:768px) and (max-width:991px){
+      padding-bottom: 50px;
+    }
     ul{
       list-style: none;
       margin: 0;
@@ -58,6 +76,9 @@ main{
         border-radius: 6px;
         text-align: left;
         padding: 20px;
+        @media(max-width:767px){
+          margin-bottom: 40px;
+        }
         div.icon{
           background: white;
           width: 65px;
@@ -68,12 +89,23 @@ main{
           text-align: center;
           vertical-align: middle;
           margin-right: 20px;
+          @media(max-width:767px){
+            display: block;
+            float: none;
+            margin: -55px auto 0;
+            border: 3px solid $purple-light;
+          }
         }
         p{
           display: inline;
           font-size: 22px;
           line-height: 28px;
           vertical-align: middle;
+          @media(max-width:767px){
+            font-size: 16px;
+            line-height: inherit;
+            text-align: center;
+          }
         }
       }
     }
@@ -85,12 +117,21 @@ main{
     background-position: center;
     position: relative;
     padding: 0 0 130px 0;
-    @media(min-width:992px){
+    @media(min-width:1025px){
       background-attachment: fixed;
+    }
+    @media(max-width:767px){
+      padding-bottom: 60px;
+    }
+    @media (min-width:768px) and (max-width:991px){
+      padding-bottom: 80px;
     }
     overflow: auto;
     h2{
       margin-bottom: 40px;
+      @media(max-width:767px){
+        margin-bottom: 25px;
+      }
     }
     div.box{
       background: $white;
@@ -126,6 +167,11 @@ main{
             height: 60px;
           }
         }
+        @media(max-width:767px){
+          img{
+            height: 40px;
+          }
+        }
       }
       div.icon.purple-light{
         background: $purple-light;
@@ -142,6 +188,11 @@ main{
         @media(max-width:991px){
           font-size: 32px;
           line-height: 42px;
+        }
+        @media(max-width:767px){
+          font-size: 24px;
+          line-height: inherit;;
+          margin-bottom: 0;
         }
       }
 
@@ -166,9 +217,15 @@ main{
     }
     div.profile{
       border-right: 1px solid white;
+      @media(max-width:767px){
+        border-right: none;
+      }
       margin-right: 10px;
       padding-top: 10px;
       padding-bottom: 10px;
+      @media(max-width:767px){
+        padding-top: 20px;
+      }
       img{
         width: 140px;
         height: 140px;
@@ -188,11 +245,22 @@ main{
     h3{
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-size: 30px;
+      line-height: 40px;
       font-style: oblique;
-      line-height: 42px;
       text-align: left;
       padding-right: 20px;
       margin-top: 35px;
+      @media(max-width:991px){
+        font-size: 26px;
+        line-height: 36px;
+      }
+      @media(max-width:767px){
+        font-size: 18px;
+        line-height: inherit;
+        text-align: center;
+        padding-right: 0;
+        margin-top: 20px;
+      }
     }
   }
 
