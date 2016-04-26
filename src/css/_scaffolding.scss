@@ -39,6 +39,9 @@ main{
 
   h2{
     margin: 110px 0 80px;
+    @media(max-width:991px){
+      margin: 70px 0 60px;
+    }
   }
 
   p{
@@ -91,10 +94,17 @@ footer{
   }
   .right{
     text-align: right;
+    @media(max-width:991px){
+      text-align: center;
+    }
   }
   a{
     color: white !important;
     text-decoration: none !important;
+  }
+  @media(max-width:991px){
+    text-align: center;
+    line-height: 60px;
   }
 }
 
