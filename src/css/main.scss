@@ -209,6 +209,11 @@ main{
 
   section.testimonial{
     position: relative;
+    @media(max-width:767px){
+      br{
+        display: block;
+      }
+    }
     img.trinagle{
       position: absolute;
       top: 0;
@@ -259,7 +264,7 @@ main{
         line-height: inherit;
         text-align: center;
         padding-right: 0;
-        margin-top: 20px;
+        margin-top: 0;
       }
     }
   }
@@ -267,12 +272,22 @@ main{
   section.pricing{
     h2{
       margin-bottom: 130px;
+      @media(max-width:767px){
+        margin-bottom: 60px;
+      }
+      @media (min-width:768px) and (max-width:991px){
+        margin-bottom: 80px;
+      }
     }
     .box{
       background-color: #D8D8D8;
       font-weight: bold;
       border-radius: 6px;
       margin-bottom: 20px;
+      @media(max-width:767px){
+        margin-bottom: 0;
+        border-radius: 6px 6px 0 0;
+      }
       div.top{
         background-image: resolve("rookie.svg");
         background-repeat: no-repeat;
@@ -298,12 +313,22 @@ main{
           margin-top: 10px;
           margin-bottom: 15px;
         }
+        @media(max-width:767px){
+          font-size: 26px;
+          line-height: normal;
+          margin-bottom: 10px;
+        }
       }
       p.price{
         font-size: 52px;
         font-family: 'FrutigerNext LT Bold';
         span{
           font-size: 16px;
+          line-height: normal;
+        }
+        @media(max-width:767px){
+          font-size: 32px;
+          line-height: 22px;
         }
       }
       ul{
@@ -322,6 +347,10 @@ main{
           @media(max-width:991px){
             font-size: 16px;
           }
+          @media(max-width:767px){
+            height: auto;
+            padding: 5px;
+          }
         }
         li.odd{
           background: #E6E6E6;
@@ -337,8 +366,11 @@ main{
         background-color: $purple;
         min-height: inherit;
         margin-top: -40px;
-
       }
+      @media(max-width:767px){
+        margin-top: 0;
+      }
+
       >span{
         text-decoration: underline;
         font-weight: normal;
@@ -348,17 +380,33 @@ main{
       h3{
         font-size: 42px;
         margin-bottom: 30px;
+        @media(max-width:767px){
+          font-size: 26px;
+          line-height: normal;
+          margin-bottom: 10px;
+        }
       }
       p.price{
         font-size: 64px;
       }
-      @media(max-width:991px){
+      @media(min-width:768px) and (max-width:991px){
         h3{
           font-size: 36px;
           margin-bottom: 20px;
         }
         p.price{
           font-size: 56px;
+        }
+      }
+      @media(max-width:767px){
+        h3{
+          font-size: 26px;
+          line-height: normal;
+          margin-bottom: 10px;
+        }
+        p.price{
+          font-size: 32px;
+          line-height: 22px;
         }
       }
     }
@@ -380,6 +428,14 @@ main{
         background: $pink;
         font-size: 24px;
       }
+      @media(max-width:767px){
+        margin-bottom: 20px;
+        button{
+          width: 100%;
+          border-radius:0 0 6px 6px;
+          font-size: 22px;
+        }
+      }
     }
     .action.rainmaker button{
       border: $purple 2px solid;
@@ -400,6 +456,9 @@ main{
       @media(max-width:991px){
         width: 200px;
       }
+      @media(max-width:767px){
+        display: none;
+      }
     }
     h3{
       font-family: 'FrutigerNext LT Bold';
@@ -411,6 +470,9 @@ main{
       margin-top: 30px;
       .row{
         margin-bottom: 25px;
+      }
+      @media(max-width:767px){
+        font-size: 16px;
       }
     }
     button{
@@ -436,9 +498,15 @@ main{
       border-radius: 6px;
       outline: none;
       padding: 10px 20px;
+      @media(max-width:767px){
+        padding: 10px;
+      }
     }
     .row.action{
       margin-bottom: 20px;
+      @media(max-width:767px){
+        margin-bottom: 0;
+      }
     }
   }
 
