@@ -7,10 +7,12 @@ main{
   section.landing{
     height: 700px;
     background: $gradient, resolve('landingBg.jpg') no-repeat;
+    @media(min-width:992px){
+      background-attachment: fixed;
+    }
     background-size: cover;
     background-position: center;
     position: relative;
-    background-attachment: fixed;
     img.logo{
       margin-top: 150px;
       margin-bottom: 55px;
@@ -32,6 +34,9 @@ main{
       height: auto;
       bottom: 0;
       left: 0;
+      @media(max-width:991px){
+        display: none;
+      }
     }
   }
 
@@ -80,7 +85,9 @@ main{
     background-position: center;
     position: relative;
     padding: 0 0 130px 0;
-    background-attachment: fixed;
+    @media(min-width:992px){
+      background-attachment: fixed;
+    }
     overflow: auto;
     h2{
       margin-bottom: 40px;
@@ -93,7 +100,7 @@ main{
       margin-top: 130px;
       @media(max-width:991px){
         padding-bottom: 20px;
-        min-height: auto;
+        min-height: inherit;
         margin-top: 20px;
       }
       @media(min-width:768px){
@@ -207,7 +214,7 @@ main{
         @media(max-width:991px){
           background-image: none;
           background-color: $pink;
-          min-height: auto;
+          min-height: inherit;
           border-radius: 6px 6px 0 0;
         }
       }
@@ -260,7 +267,7 @@ main{
       @media(max-width:991px){
         background-image: none;
         background-color: $purple;
-        min-height: auto;
+        min-height: inherit;
         margin-top: -40px;
 
       }
