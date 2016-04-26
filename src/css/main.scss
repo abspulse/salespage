@@ -13,6 +13,7 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
+    padding-bottom: 69 + 40px;
     @media(max-width:767px){
       height: auto;
       background-image: $gradient;

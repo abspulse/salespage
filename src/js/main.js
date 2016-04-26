@@ -11,7 +11,7 @@ function scrollTo(elem) {
 }
 
 // Landing full page slide
-if ($(window).height() > $('.landing').height()) {
+if ($(window).height() > $('.landing').height() + 109) {
   $('.landing').css('height', $(window).height());
 }
 
