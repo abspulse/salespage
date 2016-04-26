@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import log from './log';
+// import log from './log';
 
 window.$ = window.jQuery = $;
 
@@ -30,10 +30,12 @@ $('.pricing button').click((e) => {
 
 // Signup
 const thanksMessage = '<h3>Thank you, we\'ll get back to you soon!</h3>';
-const errorMessage = '<h3>Woops, something went wrong, please contact us via: signup@asitech.com </h3>';
+const errorMessage = '<h3>Woops, something went wrong, please contact us via: info@abspulse.com</h3>';
 
 function validateEmail(email) {
-  const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  const re = new RegExp(
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))/.source
+    + /@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.source);
   return re.test(email);
 }
 function validate(elem) {
@@ -78,7 +80,7 @@ $('form button[type="submit"]').click((e) => {
   const payload = {
     from: email.val(),
     to: 'pepegombos@gmail.com',
-    subject: 'ASI Reservation',
+    subject: 'Pulse Reservation',
     html: `<strong>New Reservation</strong>
     Account: ${$('form .accounts button.active').data('account')}<br>
     Company: ${company.val()}<br>
