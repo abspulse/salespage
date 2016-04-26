@@ -32,7 +32,6 @@ main{
       height: auto;
       bottom: 0;
       left: 0;
-      z-index: 1;
     }
   }
 
@@ -92,6 +91,14 @@ main{
       padding-bottom: 50px;
       min-height: 365px;
       margin-top: 130px;
+      @media(max-width:991px){
+        padding-bottom: 20px;
+        min-height: auto;
+        margin-top: 20px;
+      }
+      @media(min-width:768px){
+        min-height: 340px;
+      }
       div.icon{
         width: 220px;
         height: 220px;
@@ -100,6 +107,18 @@ main{
         background: $purple;
         margin: -110px auto 20px;
         display: inline-block;
+        @media(max-width:991px){
+          width: auto;
+          height: auto;
+          line-height: inherit;
+          padding: 10px;
+          margin: 0 auto 10px;
+          display: block;
+          border-radius: 6px 6px 0 0;
+          img{
+            height: 60px;
+          }
+        }
       }
       div.icon.purple-light{
         background: $purple-light;
@@ -113,6 +132,10 @@ main{
         line-height: 48px;
         font-weight: normal;
         margin-bottom: 15px;
+        @media(max-width:991px){
+          font-size: 32px;
+          line-height: 42px;
+        }
       }
 
       p{
