@@ -1,24 +1,17 @@
 {
-  "name": "gulp-starter-kit",
-  "version": "1.3.0",
-  "description": "A fully featured asset pipeline based on gulp.",
+  "name": "pulse-sales-page",
+  "version": "1.0",
+  "description": "Website for Pulse product, avaiable on: abspulse.com",
   "keywords": [
-    "gulp",
-    "starter",
-    "boilerplate",
-    "asset-pipeline",
-    "incremental-build",
-    "post-css",
-    "babel",
-    "ES2016"
+    "pulse"
   ],
-  "author": "Attila Egyed <attila.egyed.91@gmail.com>",
+  "author": "Peter Gombos <peter@abspulse.com>",
   "license": "MIT",
-  "repository": "tsm91/gulp-starter",
+  "repository": "abspulse/salespage",
   "bugs": {
-    "url": "https://github.com/tsm91/gulp-starter/issues"
+    "url": "https://github.com/abspulse/salespage/issues"
   },
-  "homepage": "https://github.com/tsm91/gulp-starter",
+  "homepage": "https://github.com/abspulse/salespage",
   "engines": {
     "node": "^4.0.0",
     "npm": "^2.14.2"
