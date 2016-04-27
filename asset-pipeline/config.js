@@ -22,7 +22,7 @@ export const html = {
 export const assets = {
   src: '.',
   dest: '.',
-  glob: '{favicon.ico,robots.txt,sitemap.xml}',
+  glob: '{favicon.ico,robots.txt,sitemap.xml,CNAME}',
   cacheName: 'assets-task'
 };
 
