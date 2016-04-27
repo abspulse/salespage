@@ -30,7 +30,7 @@ $('.pricing button').click((e) => {
 
 // Signup
 const thanksMessage = '<h3>Thank you, we\'ll get back to you soon!</h3>';
-const errorMessage = '<h3>Woops, something went wrong, please contact us via: info@abspulse.com</h3>';
+const errorMessage = '<h3>Woops, something went wrong, please contact us via: signup@abspulse.com</h3>';
 
 function validateEmail(email) {
   const re = new RegExp(
@@ -79,11 +79,11 @@ $('form button[type="submit"]').click((e) => {
 
   const payload = {
     from: email.val(),
-    to: 'pepegombos@gmail.com',
-    subject: 'Pulse Reservation',
-    html: `<strong>New Reservation</strong>
-    Account: ${$('form .accounts button.active').data('account')}<br>
-    Company: ${company.val()}<br>
+    to: 'signup@abspulse.com',
+    subject: 'New Pulse Reservation',
+    html: `<strong>Signup details:</strong><br/>
+    Account: ${$('form .accounts button.active').data('account')}<br/>
+    Company: ${company.val()}<br/>
     Email: ${email.val()}`
   };
 
