@@ -56,8 +56,13 @@ function validate(elem) {
 }
 
 function feedback(template) {
+  const html = `<div class="row">
+  <div class="col-lg-10 col-lg-offset-1 col-md-8 col-md-offset-2">
+    ${template}
+  </div>
+  </div>`;
   $('section.reserve form').remove();
-  $('section.reserve').append(template);
+  $('section.reserve .container').append(html);
 }
 
 $('form .accounts button').click((e) => {
