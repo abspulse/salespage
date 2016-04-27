@@ -465,6 +465,9 @@ main{
       font-family: 'FrutigerNext LT Bold';
       font-size: 28px;
       margin-top: 40px;
+      @media(max-width:767px){
+        font-size: 20px;
+      }
     }
     form{
       font-size: 20px;

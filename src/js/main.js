@@ -78,7 +78,7 @@ $('form button[type="submit"]').click((e) => {
   $(e.currentTarget).attr('disabled', 'disabled').text('Sending...');
 
   const payload = {
-    from: email.val(),
+    from: `${company.val()} <${email.val()}>`,
     to: 'signup@abspulse.com',
     subject: 'New Pulse Reservation',
     html: `<strong>Signup details:</strong><br/>
