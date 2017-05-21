@@ -1,7 +1,7 @@
 {
   "name": "pulse-sales-page",
   "version": "0.1.0",
-  "description": "Website for Pulse product, avaiable on: https://abspulse.github.io/salespage/",
+  "description": "Website for Pulse product, avaiable on: http://petergombos.github.io/pulse-salespage/",
   "keywords": [
     "pulse"
   ],
@@ -9,9 +9,9 @@
   "license": "MIT",
   "repository": "abspulse/salespage",
   "bugs": {
-    "url": "https://github.com/abspulse/salespage/issues"
+    "url": "https://github.com/petergombos/pulse-salespage/issues"
   },
-  "homepage": "https://abspulse.github.io/salespage/",
+  "homepage": "http://petergombos.github.io/pulse-salespage/",
   "engines": {
     "node": "^4.0.0",
     "npm": "^2.14.2"
