@@ -1,7 +1,7 @@
 {
   "name": "pulse-sales-page",
   "version": "0.1.0",
-  "description": "Website for Pulse product, avaiable on: abspulse.com",
+  "description": "Website for Pulse product, avaiable on: https://abspulse.github.io/salespage/",
   "keywords": [
     "pulse"
   ],
@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/abspulse/salespage/issues"
   },
-  "homepage": "https://github.com/abspulse/salespage",
+  "homepage": "https://abspulse.github.io/salespage/",
   "engines": {
     "node": "^4.0.0",
     "npm": "^2.14.2"
@@ -64,7 +64,7 @@
     "gulp-rev": "^7.0.0",
     "gulp-rev-napkin": "^0.1.0",
     "gulp-rev-replace": "^0.4.3",
-    "gulp-sass": "^2.2.0",
+    "gulp-sass": "^2.3.2",
     "gulp-sizereport": "^1.1.3",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.3",
