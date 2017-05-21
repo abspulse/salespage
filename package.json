@@ -18,7 +18,7 @@
   },
   "scripts": {
     "prod": "gulp --prod",
-    "deploy": "gulp --prod && git add . && git commit -m 'new site version' && git subtree push --prefix dist/prod origin gh-pages --force && git push origin master",
+    "deploy": "gulp --prod && git add . && git commit -m 'new site version' && git subtree push --prefix dist/prod origin gh-pages && git push origin master",
     "demo": "gulp browser-sync --prod",
     "dev": "gulp --dev",
     "postinstall": "gulp check-versions && npm prune && npm run dev"
