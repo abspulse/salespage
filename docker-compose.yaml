@@ -1,0 +1,16 @@
+version: "2"
+services:
+  pulse:
+    restart: always
+    build:
+      dockerfile: Dockerfile
+      context: .
+    environment:
+      - VIRTUAL_HOST=pulse.pego.dev
+      - LETSENCRYPT_HOST=pulse.pego.dev
+    networks:
+      - webproxy
+
+networks:
+  webproxy:
+    external: true
